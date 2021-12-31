@@ -1,0 +1,92 @@
+body {
+  background-color: #d1cdc9a8;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #e18b3ad0;
+}
+
+.navbar {
+  background-color: #e18b3ad0 !important;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 70%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+/* Formulario de contacto */
+.contacto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+  font-style: italic;
+  padding: 2%;
+}
+
+.form {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  font-style: italic;
+  margin: 5% 0% 5% 30%;
+}
+
+.form__buttom {
+  margin: 3% 0% 3% 40%;
+}
+
+.main__contact {
+  background-color: #ebe6e1;
+}
+
+/* QUIEN SOY */
+.perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2%;
+}
+
+.perfil__tit {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  margin: 5% 0% 5% 7%;
+}
+
+.perfil__img {
+  height: 50%;
+  width: 35%;
+  border-radius: 5%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.perfil__text {
+  background-color: #d4c9c9;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 10% 5% 10% 7%;
+  padding: 2%;
+  border-radius: 5%;
+}
+/*# sourceMappingURL=style.css.map */

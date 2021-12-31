@@ -1,0 +1,82 @@
+//VARIABLES//
+$colorPrimario: #e18b3ad0;
+$fuentePrimaria: Arial, Helvetica, sans-serif;
+
+body{
+    background-color:#d1cdc9a8;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: $colorPrimario0;
+}
+.navbar{
+    background-color: $colorPrimario !important;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container{
+    width: 70%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+/* Formulario de contacto */
+.contacto{
+    font-family: $fuentePrimaria;
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 2%;
+}
+.form {
+    font-family: $fuentePrimaria;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 5% 0% 5% 30%;
+    &__buttom{
+        margin: 3% 0% 3% 40%;
+    }
+}
+
+.main__contact{
+    background-color: #ebe6e1;
+}
+
+/* QUIEN SOY */
+.perfil{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    &__tit{
+        font-family: $fuentePrimaria;
+        font-size: 40px;
+        font-weight: bolder;
+        font-style: italic;
+        margin: 5% 0% 5% 7%;
+    }
+    &__img{
+        height: 50%;
+        width: 35%;
+        border-radius: 5%;
+        align-self: center;
+    }
+    &__text{
+        background-color: #d4c9c9;
+        align-self: center;
+        margin: 10% 5% 10% 7%;
+        padding: 2%;
+        border-radius: 5%;
+    }
+
+} 
+
+
+
